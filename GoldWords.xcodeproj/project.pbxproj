@@ -7,12 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C214EC511AE6AA22002A258E /* SwiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21CADA51AD987F50046A3B9 /* SwiftData.swift */; };
+		C214EC521AE6AA26002A258E /* SwiftDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C6869D1AE21DE10008A577 /* SwiftDataWrapper.swift */; };
 		C21CAD5E1AD983240046A3B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21CAD5D1AD983240046A3B9 /* AppDelegate.swift */; };
 		C21CAD601AD983240046A3B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21CAD5F1AD983240046A3B9 /* ViewController.swift */; };
 		C21CAD631AD983240046A3B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21CAD611AD983240046A3B9 /* Main.storyboard */; };
 		C21CAD651AD983240046A3B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21CAD641AD983240046A3B9 /* Images.xcassets */; };
 		C21CAD681AD983240046A3B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21CAD661AD983240046A3B9 /* LaunchScreen.xib */; };
 		C21CAD741AD983240046A3B9 /* GoldWordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21CAD731AD983240046A3B9 /* GoldWordsTests.swift */; };
+		C21CAD871AD9838F0046A3B9 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21CAD861AD9838F0046A3B9 /* InterfaceController.swift */; };
+		C21CAD891AD9838F0046A3B9 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21CAD881AD9838F0046A3B9 /* NotificationController.swift */; };
+		C21CAD8B1AD9838F0046A3B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21CAD8A1AD9838F0046A3B9 /* Images.xcassets */; };
+		C21CAD8F1AD9838F0046A3B9 /* GoldWords WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = C21CAD8E1AD9838F0046A3B9 /* GoldWords WatchKit App.app */; };
+		C21CAD971AD9838F0046A3B9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21CAD951AD9838F0046A3B9 /* Interface.storyboard */; };
+		C21CAD991AD9838F0046A3B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21CAD981AD9838F0046A3B9 /* Images.xcassets */; };
+		C21CAD9C1AD9838F0046A3B9 /* GoldWords WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C21CAD811AD9838F0046A3B9 /* GoldWords WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C21CADA41AD985DE0046A3B9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21CAD951AD9838F0046A3B9 /* Interface.storyboard */; };
+		C21CADA81AD9889B0046A3B9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C21CADA71AD9889B0046A3B9 /* libsqlite3.dylib */; };
+		C2C6869E1AE21DE10008A577 /* SwiftDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C6869D1AE21DE10008A577 /* SwiftDataWrapper.swift */; };
+		C2C6869F1AE2247D0008A577 /* SwiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21CADA51AD987F50046A3B9 /* SwiftData.swift */; };
+		C2C686A01AE226940008A577 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C21CADA71AD9889B0046A3B9 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +37,35 @@
 			remoteGlobalIDString = C21CAD571AD983240046A3B9;
 			remoteInfo = GoldWords;
 		};
+		C21CAD901AD9838F0046A3B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C21CAD501AD983240046A3B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C21CAD8D1AD9838F0046A3B9;
+			remoteInfo = "GoldWords WatchKit App";
+		};
+		C21CAD9A1AD9838F0046A3B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C21CAD501AD983240046A3B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C21CAD801AD9838F0046A3B9;
+			remoteInfo = "GoldWords WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C21CADA31AD9838F0046A3B9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C21CAD9C1AD9838F0046A3B9 /* GoldWords WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C21CAD581AD983240046A3B9 /* GoldWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoldWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +78,20 @@
 		C21CAD6D1AD983240046A3B9 /* GoldWordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldWordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21CAD721AD983240046A3B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C21CAD731AD983240046A3B9 /* GoldWordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldWordsTests.swift; sourceTree = "<group>"; };
+		C21CAD811AD9838F0046A3B9 /* GoldWords WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GoldWords WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21CAD841AD9838F0046A3B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C21CAD851AD9838F0046A3B9 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C21CAD861AD9838F0046A3B9 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C21CAD881AD9838F0046A3B9 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C21CAD8A1AD9838F0046A3B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C21CAD8E1AD9838F0046A3B9 /* GoldWords WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoldWords WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21CAD941AD9838F0046A3B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C21CAD961AD9838F0046A3B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C21CAD981AD9838F0046A3B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C21CADA51AD987F50046A3B9 /* SwiftData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftData.swift; path = ../GoldWords/SwiftData.swift; sourceTree = "<group>"; };
+		C21CADA71AD9889B0046A3B9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C21CADA91AD989F40046A3B9 /* GoldWordsHeader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GoldWordsHeader-Bridging-Header.h"; path = "GoldWords/GoldWordsHeader-Bridging-Header.h"; sourceTree = "<group>"; };
+		C2C6869D1AE21DE10008A577 /* SwiftDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftDataWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C21CADA81AD9889B0046A3B9 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,14 +110,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C21CAD7E1AD9838F0046A3B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C686A01AE226940008A577 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		C21CAD4F1AD983240046A3B9 = {
 			isa = PBXGroup;
 			children = (
+				C21CADA71AD9889B0046A3B9 /* libsqlite3.dylib */,
+				C21CADA91AD989F40046A3B9 /* GoldWordsHeader-Bridging-Header.h */,
 				C21CAD5A1AD983240046A3B9 /* GoldWords */,
 				C21CAD701AD983240046A3B9 /* GoldWordsTests */,
+				C21CAD821AD9838F0046A3B9 /* GoldWords WatchKit Extension */,
+				C21CAD921AD9838F0046A3B9 /* GoldWords WatchKit App */,
 				C21CAD591AD983240046A3B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +139,8 @@
 			children = (
 				C21CAD581AD983240046A3B9 /* GoldWords.app */,
 				C21CAD6D1AD983240046A3B9 /* GoldWordsTests.xctest */,
+				C21CAD811AD9838F0046A3B9 /* GoldWords WatchKit Extension.appex */,
+				C21CAD8E1AD9838F0046A3B9 /* GoldWords WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +183,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C21CAD821AD9838F0046A3B9 /* GoldWords WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C21CAD861AD9838F0046A3B9 /* InterfaceController.swift */,
+				C21CAD881AD9838F0046A3B9 /* NotificationController.swift */,
+				C21CAD8A1AD9838F0046A3B9 /* Images.xcassets */,
+				C21CAD831AD9838F0046A3B9 /* Supporting Files */,
+				C2C6869D1AE21DE10008A577 /* SwiftDataWrapper.swift */,
+				C21CADA51AD987F50046A3B9 /* SwiftData.swift */,
+			);
+			path = "GoldWords WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C21CAD831AD9838F0046A3B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C21CAD841AD9838F0046A3B9 /* Info.plist */,
+				C21CAD851AD9838F0046A3B9 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C21CAD921AD9838F0046A3B9 /* GoldWords WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C21CAD951AD9838F0046A3B9 /* Interface.storyboard */,
+				C21CAD981AD9838F0046A3B9 /* Images.xcassets */,
+				C21CAD931AD9838F0046A3B9 /* Supporting Files */,
+			);
+			path = "GoldWords WatchKit App";
+			sourceTree = "<group>";
+		};
+		C21CAD931AD9838F0046A3B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C21CAD941AD9838F0046A3B9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +233,12 @@
 				C21CAD541AD983240046A3B9 /* Sources */,
 				C21CAD551AD983240046A3B9 /* Frameworks */,
 				C21CAD561AD983240046A3B9 /* Resources */,
+				C21CADA31AD9838F0046A3B9 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C21CAD9B1AD9838F0046A3B9 /* PBXTargetDependency */,
 			);
 			name = GoldWords;
 			productName = GoldWords;
@@ -150,6 +263,39 @@
 			productReference = C21CAD6D1AD983240046A3B9 /* GoldWordsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		C21CAD801AD9838F0046A3B9 /* GoldWords WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21CADA01AD9838F0046A3B9 /* Build configuration list for PBXNativeTarget "GoldWords WatchKit Extension" */;
+			buildPhases = (
+				C21CAD7D1AD9838F0046A3B9 /* Sources */,
+				C21CAD7E1AD9838F0046A3B9 /* Frameworks */,
+				C21CAD7F1AD9838F0046A3B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C21CAD911AD9838F0046A3B9 /* PBXTargetDependency */,
+			);
+			name = "GoldWords WatchKit Extension";
+			productName = "GoldWords WatchKit Extension";
+			productReference = C21CAD811AD9838F0046A3B9 /* GoldWords WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		C21CAD8D1AD9838F0046A3B9 /* GoldWords WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21CAD9D1AD9838F0046A3B9 /* Build configuration list for PBXNativeTarget "GoldWords WatchKit App" */;
+			buildPhases = (
+				C21CAD8C1AD9838F0046A3B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoldWords WatchKit App";
+			productName = "GoldWords WatchKit App";
+			productReference = C21CAD8E1AD9838F0046A3B9 /* GoldWords WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +311,12 @@
 					C21CAD6C1AD983240046A3B9 = {
 						CreatedOnToolsVersion = 6.3;
 						TestTargetID = C21CAD571AD983240046A3B9;
+					};
+					C21CAD801AD9838F0046A3B9 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					C21CAD8D1AD9838F0046A3B9 = {
+						CreatedOnToolsVersion = 6.3;
 					};
 				};
 			};
@@ -183,6 +335,8 @@
 			targets = (
 				C21CAD571AD983240046A3B9 /* GoldWords */,
 				C21CAD6C1AD983240046A3B9 /* GoldWordsTests */,
+				C21CAD801AD9838F0046A3B9 /* GoldWords WatchKit Extension */,
+				C21CAD8D1AD9838F0046A3B9 /* GoldWords WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +359,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C21CAD7F1AD9838F0046A3B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21CAD8F1AD9838F0046A3B9 /* GoldWords WatchKit App.app in Resources */,
+				C21CADA41AD985DE0046A3B9 /* Interface.storyboard in Resources */,
+				C21CAD8B1AD9838F0046A3B9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21CAD8C1AD9838F0046A3B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21CAD971AD9838F0046A3B9 /* Interface.storyboard in Resources */,
+				C21CAD991AD9838F0046A3B9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -213,6 +386,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C21CAD601AD983240046A3B9 /* ViewController.swift in Sources */,
+				C214EC521AE6AA26002A258E /* SwiftDataWrapper.swift in Sources */,
+				C214EC511AE6AA22002A258E /* SwiftData.swift in Sources */,
 				C21CAD5E1AD983240046A3B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +400,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C21CAD7D1AD9838F0046A3B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21CAD891AD9838F0046A3B9 /* NotificationController.swift in Sources */,
+				C2C6869F1AE2247D0008A577 /* SwiftData.swift in Sources */,
+				C2C6869E1AE21DE10008A577 /* SwiftDataWrapper.swift in Sources */,
+				C21CAD871AD9838F0046A3B9 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +418,16 @@
 			isa = PBXTargetDependency;
 			target = C21CAD571AD983240046A3B9 /* GoldWords */;
 			targetProxy = C21CAD6E1AD983240046A3B9 /* PBXContainerItemProxy */;
+		};
+		C21CAD911AD9838F0046A3B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C21CAD8D1AD9838F0046A3B9 /* GoldWords WatchKit App */;
+			targetProxy = C21CAD901AD9838F0046A3B9 /* PBXContainerItemProxy */;
+		};
+		C21CAD9B1AD9838F0046A3B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C21CAD801AD9838F0046A3B9 /* GoldWords WatchKit Extension */;
+			targetProxy = C21CAD9A1AD9838F0046A3B9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +446,14 @@
 				C21CAD671AD983240046A3B9 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C21CAD951AD9838F0046A3B9 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C21CAD961AD9838F0046A3B9 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -343,6 +547,7 @@
 				INFOPLIST_FILE = GoldWords/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoldWords/GoldWordsHeader-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -353,6 +558,7 @@
 				INFOPLIST_FILE = GoldWords/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoldWords/GoldWordsHeader-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -390,6 +596,64 @@
 			};
 			name = Release;
 		};
+		C21CAD9E1AD9838F0046A3B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = GoldWords_WatchKit_Extension;
+				INFOPLIST_FILE = "GoldWords WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		C21CAD9F1AD9838F0046A3B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = GoldWords_WatchKit_Extension;
+				INFOPLIST_FILE = "GoldWords WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		C21CADA11AD9838F0046A3B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GoldWords WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "GoldWords/GoldWordsHeader-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		C21CADA21AD9838F0046A3B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GoldWords WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "GoldWords/GoldWordsHeader-Bridging-Header.h";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -409,6 +673,7 @@
 				C21CAD791AD983240046A3B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C21CAD7A1AD983240046A3B9 /* Build configuration list for PBXNativeTarget "GoldWordsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +682,25 @@
 				C21CAD7C1AD983240046A3B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21CAD9D1AD9838F0046A3B9 /* Build configuration list for PBXNativeTarget "GoldWords WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21CAD9E1AD9838F0046A3B9 /* Debug */,
+				C21CAD9F1AD9838F0046A3B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21CADA01AD9838F0046A3B9 /* Build configuration list for PBXNativeTarget "GoldWords WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21CADA11AD9838F0046A3B9 /* Debug */,
+				C21CADA21AD9838F0046A3B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

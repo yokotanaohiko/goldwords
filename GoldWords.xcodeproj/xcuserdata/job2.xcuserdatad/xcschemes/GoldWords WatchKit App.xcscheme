@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C21CAD8D1AD9838F0046A3B9"
+               BuildableName = "GoldWords WatchKit App.app"
+               BlueprintName = "GoldWords WatchKit App"
+               ReferencedContainer = "container:GoldWords.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "C21CAD571AD983240046A3B9"
                BuildableName = "GoldWords.app"
                BlueprintName = "GoldWords"
@@ -23,14 +37,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C21CAD6C1AD983240046A3B9"
-               BuildableName = "GoldWordsTests.xctest"
-               BlueprintName = "GoldWordsTests"
+               BlueprintIdentifier = "C21CAD801AD9838F0046A3B9"
+               BuildableName = "GoldWords WatchKit Extension.appex"
+               BlueprintName = "GoldWords WatchKit Extension"
                ReferencedContainer = "container:GoldWords.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C21CAD6C1AD983240046A3B9"
-               BuildableName = "GoldWordsTests.xctest"
-               BlueprintName = "GoldWordsTests"
-               ReferencedContainer = "container:GoldWords.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C21CAD571AD983240046A3B9"
-            BuildableName = "GoldWords.app"
-            BlueprintName = "GoldWords"
+            BlueprintIdentifier = "C21CAD8D1AD9838F0046A3B9"
+            BuildableName = "GoldWords WatchKit App.app"
+            BlueprintName = "GoldWords WatchKit App"
             ReferencedContainer = "container:GoldWords.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/GoldWords">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C21CAD571AD983240046A3B9"
-            BuildableName = "GoldWords.app"
-            BlueprintName = "GoldWords"
+            BlueprintIdentifier = "C21CAD8D1AD9838F0046A3B9"
+            BuildableName = "GoldWords WatchKit App.app"
+            BlueprintName = "GoldWords WatchKit App"
             ReferencedContainer = "container:GoldWords.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C21CAD8D1AD9838F0046A3B9"
+            BuildableName = "GoldWords WatchKit App.app"
+            BlueprintName = "GoldWords WatchKit App"
+            ReferencedContainer = "container:GoldWords.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/GoldWords">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C21CAD571AD983240046A3B9"
-            BuildableName = "GoldWords.app"
-            BlueprintName = "GoldWords"
+            BlueprintIdentifier = "C21CAD8D1AD9838F0046A3B9"
+            BuildableName = "GoldWords WatchKit App.app"
+            BlueprintName = "GoldWords WatchKit App"
             ReferencedContainer = "container:GoldWords.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C21CAD8D1AD9838F0046A3B9"
+            BuildableName = "GoldWords WatchKit App.app"
+            BlueprintName = "GoldWords WatchKit App"
+            ReferencedContainer = "container:GoldWords.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
