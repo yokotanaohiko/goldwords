@@ -24,6 +24,7 @@
 		C21CAD9C1AD9838F0046A3B9 /* GoldWords WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C21CAD811AD9838F0046A3B9 /* GoldWords WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C21CADA41AD985DE0046A3B9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21CAD951AD9838F0046A3B9 /* Interface.storyboard */; };
 		C21CADA81AD9889B0046A3B9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C21CADA71AD9889B0046A3B9 /* libsqlite3.dylib */; };
+		C29E0AAF1AFF17AE00F64A16 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29E0AAE1AFF17AE00F64A16 /* GlanceController.swift */; };
 		C2C6869E1AE21DE10008A577 /* SwiftDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C6869D1AE21DE10008A577 /* SwiftDataWrapper.swift */; };
 		C2C6869F1AE2247D0008A577 /* SwiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21CADA51AD987F50046A3B9 /* SwiftData.swift */; };
 		C2C686A01AE226940008A577 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C21CADA71AD9889B0046A3B9 /* libsqlite3.dylib */; };
@@ -91,6 +92,7 @@
 		C21CADA51AD987F50046A3B9 /* SwiftData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftData.swift; path = ../GoldWords/SwiftData.swift; sourceTree = "<group>"; };
 		C21CADA71AD9889B0046A3B9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		C21CADA91AD989F40046A3B9 /* GoldWordsHeader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GoldWordsHeader-Bridging-Header.h"; path = "GoldWords/GoldWordsHeader-Bridging-Header.h"; sourceTree = "<group>"; };
+		C29E0AAE1AFF17AE00F64A16 /* GlanceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
 		C2C6869D1AE21DE10008A577 /* SwiftDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftDataWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				C21CAD861AD9838F0046A3B9 /* InterfaceController.swift */,
+				C29E0AAE1AFF17AE00F64A16 /* GlanceController.swift */,
 				C21CAD881AD9838F0046A3B9 /* NotificationController.swift */,
 				C21CAD8A1AD9838F0046A3B9 /* Images.xcassets */,
 				C21CAD831AD9838F0046A3B9 /* Supporting Files */,
@@ -404,6 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C29E0AAF1AFF17AE00F64A16 /* GlanceController.swift in Sources */,
 				C21CAD891AD9838F0046A3B9 /* NotificationController.swift in Sources */,
 				C2C6869F1AE2247D0008A577 /* SwiftData.swift in Sources */,
 				C2C6869E1AE21DE10008A577 /* SwiftDataWrapper.swift in Sources */,

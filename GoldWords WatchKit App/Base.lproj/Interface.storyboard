@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
     </dependencies>
     <scenes>
@@ -48,6 +48,26 @@
                 </notificationController>
             </objects>
             <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="1f4-aB-W9C">
+            <objects>
+                <glanceController topTemplateType="body3" bottomTemplateType="body6Footer" id="eYr-ZI-nIQ" customClass="GlanceController" customModule="GoldWords_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Label∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙" id="Jjv-mf-8xK"/>
+                        <label alignment="left" id="egp-Jq-CNB">
+                            <string key="text">Label∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙</string>
+                        </label>
+                        <label alignment="left" text="Footer" id="ssF-gx-5HV"/>
+                    </items>
+                    <connections>
+                        <outlet property="glanceHeader" destination="Jjv-mf-8xK" id="hZD-xk-ZyF"/>
+                        <outlet property="goldWord" destination="egp-Jq-CNB" id="Bmu-d0-cvJ"/>
+                        <outlet property="greatMan" destination="ssF-gx-5HV" id="RZR-Tc-rjc"/>
+                    </connections>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="219" y="871"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
