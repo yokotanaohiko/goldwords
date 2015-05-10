@@ -10,9 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var greatMan: UILabel!
+    @IBOutlet weak var goldWord: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let SDW = SwiftDataWrapper();
+        let (gw, gm) = SDW.getOneGoldWord();
+        greatMan.text = gm;
+        goldWord.text = gw;
+        
     }
 
     override func didReceiveMemoryWarning() {

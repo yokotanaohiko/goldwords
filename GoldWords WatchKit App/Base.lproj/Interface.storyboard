@@ -18,7 +18,7 @@
                         </group>
                         <label width="136" alignment="left" text="燕雀安んぞ鴻鵠の志を知らんや" textAlignment="justified" numberOfLines="100" id="x65-KQ-7pU">
                             <color key="textColor" red="0.80000001192092896" green="1" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
-                            <fontDescription key="font" type="system" weight="semibold" pointSize="17"/>
+                            <fontDescription key="font" type="system" weight="semibold" pointSize="15"/>
                         </label>
                         <separator alignment="left" id="227-tD-vwG"/>
                         <label width="136" alignment="left" text="名前" numberOfLines="10" id="OYY-RN-iCk">
